@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { ArrowDownRight, ArrowUpRight, Code2, ExternalLink, Github, Mail, Menu, Radio, Terminal, X } from "lucide-react";
 import { createFileRoute } from "@tanstack/react-router";
 
@@ -63,7 +63,7 @@ const projects = [
   },
 ];
 
-function Reveal({ children, className = "", delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
+function Reveal({ children, className = "", delay = 0 }: { children: ReactNode; className?: string; delay?: number }) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
 
@@ -83,7 +83,7 @@ function Reveal({ children, className = "", delay = 0 }: { children: React.React
   return <div ref={ref} className={`${className} transition-all duration-700 ${visible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`} style={{ transitionDelay: `${delay}ms` }}>{children}</div>;
 }
 
-function SectionLabel({ index, children }: { index: string; children: React.ReactNode }) {
+function SectionLabel({ index, children }: { index: string; children: ReactNode }) {
   return <div className="mb-8 flex items-center gap-3 font-mono text-[10px] uppercase tracking-[0.22em] text-muted-foreground"><span className="text-cyan">{index}</span><span className="h-px w-8 bg-line" /><span>{children}</span></div>;
 }
 
