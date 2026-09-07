@@ -1,3 +1,3 @@
 - [x] Extract resume facts and lock SDE-first positioning
-- [ ] Build award-caliber kinetic-glass portfolio
-- [ ] Verify responsive rendering, accessibility, and interactions
+- [x] Build award-caliber kinetic-glass portfolio
+- [x] Verify responsive rendering, accessibility, and interactions
