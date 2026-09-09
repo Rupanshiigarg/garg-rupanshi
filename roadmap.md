@@ -1,3 +1,4 @@
 - [x] Extract resume facts and lock SDE-first positioning
 - [x] Build award-caliber kinetic-glass portfolio
 - [x] Verify responsive rendering, accessibility, and interactions
+- [x] Apply Nocturnal Crimson Industrial color theme
