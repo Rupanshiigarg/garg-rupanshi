@@ -193,7 +193,8 @@ html {
 
 @utility portfolio-grid {
   background-image: radial-gradient(circle at 8% 5%, color-mix(in oklab, var(--color-cyan) 10%, transparent), transparent 34%), radial-gradient(circle at 92% 88%, color-mix(in oklab, var(--color-pink) 8%, transparent), transparent 32%), linear-gradient(to right, color-mix(in oklab, var(--color-line) 28%, transparent) 1px, transparent 1px), linear-gradient(to bottom, color-mix(in oklab, var(--color-line) 24%, transparent) 1px, transparent 1px);
-  background-size: 72px 72px;
+  background-size: 100% 100%, 100% 100%, 72px 72px, 72px 72px;
+  background-repeat: no-repeat, no-repeat, repeat, repeat;
 }
 
 @utility glass-panel {
