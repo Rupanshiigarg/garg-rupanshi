@@ -2,3 +2,5 @@
 - [x] Build award-caliber kinetic-glass portfolio
 - [x] Verify responsive rendering, accessibility, and interactions
 - [x] Apply Nocturnal Crimson Industrial color theme
+- [x] Transform portfolio into light Editorial Rose recruiter theme
+- [x] Verify light theme across desktop and mobile
